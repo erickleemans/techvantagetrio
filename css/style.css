@@ -219,7 +219,7 @@ button {
 .titlepage::before {
      content: "";
      position: absolute;
-     border: #fff solid 5px;
+     /* border: #fff solid 5px; */
      border-width: 5px;
      width: 80px;
      z-index: 999;
@@ -504,9 +504,11 @@ ul.email li i {
 
 .we_box p {
      color: #292929;
-     padding-top: 25px;
+     height: 710px;
+     overflow: hidden;
+     /* padding-top: 25px; */
      display: block;
-     padding-bottom: 40px;
+     /* padding-bottom: 40px; */
 }
 
 .we_box .read_more {
@@ -567,7 +569,7 @@ ul.email li i {
 }
 
 .about .titlepage::before {
-     border: #fff solid 5px;
+     border: #fff solid 0px;
 }
 
 .about .titlepage {
@@ -858,6 +860,7 @@ ul.email li i {
 .clientsl_text p {
      color: #757575;
      padding-top: 62px;
+     height: 230px;
      display: block;
 }
 
