@@ -23,17 +23,6 @@
             window.location.href = mailtoLink;
           });
          </script>
-         document.getElementById('request').addEventListener('submit', function(event) {
-         event.preventDefault(); // Prevent form submission
-       
-         var name = document.getElementsByName('name')[0].value;
-         var phoneNumber = document.getElementsByName('phoneNumber')[0].value;
-         var email = document.getElementsByName('email')[0].value;
-         var message = document.getElementsByName('message')[0].value;
-         var mailtoLink = 'mailto:erick@techvantagetrio.com?subject=Contact%20Form%20Submission&body=' + encodeURIComponent('Name: ' + name + '\nPhone Number: ' + phoneNumber + '\nEmail: ' + email + '\nMessage: ' + message);
-         window.location.href = mailtoLink;
-       });
-      </script>
       <!-- basic -->
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
